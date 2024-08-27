@@ -1,0 +1,136 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/shop-recharge/recharge",
+    "pages/shop-recharge/pay-confirm",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/shop-order/logistics",
+    "pages/news-detail/news-detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/shangjia/list",
+    "pages/shangjia/add-or-update",
+    "pages/shangjia/detail",
+    "pages/shangpinfenlei/list",
+    "pages/shangpinfenlei/add-or-update",
+    "pages/shangpinfenlei/detail",
+    "pages/ershoushangcheng/list",
+    "pages/ershoushangcheng/add-or-update",
+    "pages/ershoushangcheng/detail",
+    "pages/pinkunshengshenqing/list",
+    "pages/pinkunshengshenqing/add-or-update",
+    "pages/pinkunshengshenqing/detail",
+    "pages/gongyilan/list",
+    "pages/gongyilan/add-or-update",
+    "pages/gongyilan/detail",
+    "pages/juanzengxinxi/list",
+    "pages/juanzengxinxi/add-or-update",
+    "pages/juanzengxinxi/detail",
+    "pages/xiaoxitongzhi/list",
+    "pages/xiaoxitongzhi/add-or-update",
+    "pages/xiaoxitongzhi/detail",
+    "pages/chatmessage/list",
+    "pages/chatmessage/add-or-update",
+    "pages/chatmessage/detail",
+    "pages/friend/list",
+    "pages/friend/add-or-update",
+    "pages/friend/detail",
+    "pages/newstype/list",
+    "pages/newstype/add-or-update",
+    "pages/newstype/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/aboutus/list",
+    "pages/aboutus/add-or-update",
+    "pages/aboutus/detail",
+    "pages/systemintro/list",
+    "pages/systemintro/add-or-update",
+    "pages/systemintro/detail",
+    "pages/discussershoushangcheng/list",
+    "pages/discussershoushangcheng/add-or-update",
+    "pages/discussershoushangcheng/detail",
+    "pages/forum-index/forum-index",
+    "pages/forum-detail/forum-detail",
+    "pages/forum-reply/forum-reply",
+    "pages/forum-list/list",
+    "pages/forum-my/forum-my",
+    "pages/forum-add-or-update/forum-add-or-update",
+    "pages/pay-confirm/pay-confirm",
+    "common/linkOthers/linkOthers"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于校园应用开发校园二手交易平台设计",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#FFCC00",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news_act.png",
+        "text": "公告资讯"
+      },
+      {
+        "pagePath": "pages/forum-index/forum-index",
+        "iconPath": "static/tabs/forum.png",
+        "selectedIconPath": "static/tabs/forum_act.png",
+        "text": "交流论坛"
+      },
+      {
+        "pagePath": "pages/shop-cart/shop-cart",
+        "iconPath": "static/tabs/cart.png",
+        "selectedIconPath": "static/tabs/cart1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
